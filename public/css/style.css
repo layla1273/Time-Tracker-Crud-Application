@@ -1,0 +1,85 @@
+/* Navigation */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  background: greenyellow;
+}
+
+nav ul a:active {
+  color: red;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+}
+
+.message_ok {
+  background-color: green;
+}
+
+.message_error {
+  background-color: red;
+}
+
+/* Form styles */
+
+label {
+  display: block;
+}
+
+label abbr {
+  color: red;
+}
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+/* TABLE */
+table {
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #00cccc;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05),
+    0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+}
+
+th,
+td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 12px 35px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.total {
+  text-align: right;
+}
+
+tr:hover {
+  background: #f4f4f4;
+}
+td:hover {
+  color: #555;
+}
+
+thead th {
+  background: #00cccc;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.highlight {
+  background: yellow;
+}
